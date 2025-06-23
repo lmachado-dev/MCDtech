@@ -11,12 +11,7 @@
     box-sizing: border-box;
 }
 
-.body{
-    display: flex;
-    justify-content: center;
-    background-color: aqua;
-}
-
+/* header */
 .barra-dados{
     display: flex;
     flex-direction: row;
@@ -84,11 +79,60 @@
     list-style: none;
 }
 
+/* Fim cabecalho */
+
+/* Conteudo */
+
 .container{
     display: flex;
     justify-content: center;
-    width: 800px;
-    height: 20vh;
-    background-color: aqua;
 }
 
+.conteudo{
+    width: 90%;
+    height: auto;
+}
+
+.conteudo__banner{
+    background-image: url(/assets/banner_fone.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40vh;
+}
+
+.conteudo__banner--fone{
+    position: relative;
+    bottom: -50%;
+    left: 70%;
+    gap: 30px;
+}
+
+.conteudo__categorias--itens{
+    display: flex;
+    background-color: #B6B09F;
+}
+
+.conteudo__categorias--itens{
+    width: 100%;
+}
+
+.categoria{
+    width: 16.6%;
+    height: auto;
+    background-color: chocolate;
+    font-size: 10px;
+}
+
+.categoria__imagem{
+    width: 90%;
+    height: auto;
+}
+
+.categoria__titulo{
+    text-align: center;
+
+}
+
+/* Fim Conteudo */
