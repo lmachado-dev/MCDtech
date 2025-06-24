@@ -105,34 +105,68 @@
 .conteudo__banner--fone{
     position: relative;
     bottom: -50%;
-    left: 70%;
+    left: 65vh;
     gap: 30px;
 }
 
 .conteudo__categorias--itens{
     display: flex;
-    background-color: #B6B09F;
-}
-
-.conteudo__categorias--itens{
     width: 100%;
 }
 
 .categoria{
     width: 16.6%;
     height: auto;
-    background-color: chocolate;
     font-size: 10px;
 }
 
 .categoria__imagem{
-    width: 90%;
+    width: 95%;
     height: auto;
 }
 
 .categoria__titulo{
     text-align: center;
-
+    cursor: pointer;
 }
 
+.categoria__titulo:hover{
+    color: mediumturquoise;
+}
+
+/* Mais comprados */
+
+.mais-comprados{
+    background-color: #B6B09F;
+    width: 100%;
+    height: 20vh;
+}
+
+.mais-comprados__lista{
+    display: flex;
+    flex-direction: row;
+}
+
+.produto{
+    background-color: rgb(6, 255, 255);
+    width: 25%;
+    height: 35vh;
+}
+
+.produto__desconto{
+    border: 1px solid cadetblue;
+    background-color: rgba(127, 255, 212, 0.301);
+    color: aqua;
+    border-radius: 2px;
+    width: 55%;
+    font-size: 10px;
+}
+
+.produto__valor{
+    font-weight: 700;
+}
+
+
+
+/* Fim Mais comprados */
 /* Fim Conteudo */
