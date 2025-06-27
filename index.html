@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header>
+    <header class="cabecalho">
         <section class="barra-dados">
             <div class="dados--contato">
                 <p>email@email.com.br</p>
@@ -27,23 +27,23 @@
             </div>
 
             <div class="barra-cliente__icones">
-                <img src="./assets/carrinho.png" alt="carrinho de compras">
-                <img src="./assets/coracao.png" alt="favoritos">
-                <img src="./assets/perfil.png" alt="minha conta">
+                <img src="./assets/carrinho.png" class="barra-cliente__imagem" alt="carrinho de compras">
+                <img src="./assets/coracao.png" class="barra-cliente__imagem" alt="favoritos">
+                <img src="./assets/perfil.png" class="barra-cliente__imagem" alt="minha conta">
             </div>
         </section>
         <section class="menu">
             <nav class="menu__opcoes">
-                <li>Home</li>
-                <li>Categorias</li>
-                <li>Saldão</li>
-                <li>Sobre nós</li>
-                <li>Contate-nos</li>
+                <li class="opcoes-menu">Home</li>
+                <li class="opcoes-menu">Categorias</li>
+                <li class="opcoes-menu">Saldão</li>
+                <li class="opcoes-menu">Sobre nós</li>
+                <li class="opcoes-menu">Contate-nos</li>
             </nav>
         </section>
     </header>
-    <div class="container">
-        <main class="conteudo">
+    <main class="container">
+        <div class="conteudo">
 
             <section class="conteudo__banner">
                 <div class="conteudo__banner--fone">
@@ -186,8 +186,31 @@
               </div>
             </section>
 
-        </main>
-    </div>
-    <footer></footer>
+        </div>
+    </main>
+    <footer class="rodape">
+        <section class="rodape__links">
+            <div class="links__empresa">
+                <a href="">Sobre nós</a>
+                <a href="">Todos os Produtos</a>
+                <a href="">FAQs</a>
+                <a href="">Mapa</a>
+                <a href="">Termos e condições</a>
+            </div>
+            <div class="atendimento-cliente">
+                <a href="">Informações de entrega</a>
+                <a href="">Politicas de devolução</a>
+                <a href="">Politicas de privacidade</a>
+                <a href="">Politicas de cookies</a>
+            </div>
+            <div class="pedido-compra">
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>
