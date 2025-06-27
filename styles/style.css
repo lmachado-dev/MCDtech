@@ -26,22 +26,20 @@
 }
 
 .produto{
-    width: 25dvh;
-    height: 43dvh;
+    width: 23%;
+    height: 100%;
+    min-height: 250px;    
     cursor: pointer;
     background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
 }
 
 .lista-produtos{
-  width: 200px;              /* mesma largura para todos */
-  height: 360px;             /* mesma altura para todos */
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 35px;
+    gap: 10px;
 }
 
 /* Fim Containers */
@@ -133,7 +131,7 @@
 
 .conteudo__banner--fone{
     position: relative;
-    background-image: url(/assets/banner_fone.png);
+    background-image: url(../assets/banner_fone.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -233,6 +231,7 @@
 .produto__foto{
     width: 100%;
     height: auto;
+    object-fit: contain;
 }
 /* Fim Mais comprados */
 
