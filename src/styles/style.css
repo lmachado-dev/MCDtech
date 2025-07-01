@@ -1,3 +1,8 @@
+@import url('./base.css');
+@import url('./header.css');
+@import url('./main.css');
+@import url('./footer.css');
+
 :root{
     --cor-primaria: #F2F2F2;
     --cor-secundaria: #EAE4D5;
@@ -89,6 +94,25 @@
 .barra-cliente__pesquisar{
     display: flex;
     flex-direction: row;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    border: 1px solid #ccc;
+}
+
+.pesquisar__input{
+  flex: 1;
+  border: none;
+  padding: 3px 15px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.pesquisar__botao{
+  background-color: #68686871;
+  color: white;
+  border: none;
+  padding: 3px 15px;
+  cursor: pointer;
+  transition: background 0.3s;
 }
 
 .barra-cliente__icones{
